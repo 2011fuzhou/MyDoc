@@ -1,0 +1,18 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling d:\技术文档.CHM
+
+css\base.css
+HHC5003: Error: Compilation failed while compiling img\1.png.
+HHC5003: Error: Compilation failed while compiling img\test.jpg.
+src\远程配置.html
+src\主页.html
+TOC-Created-By-Easy-CHM.HHC
+Index-Created-By-Easy-CHM.HHK
+C:\Users\lala\AppData\Local\Temp\Easy-CHM-HtmlHelp-Maker.HTML
+c:\Users\lala\AppData\Local\Temp\Easy-CHM-HtmlHelp-Maker.GIF
+
+
+The following files were not compiled:
+img\1.png
+img\test.jpg

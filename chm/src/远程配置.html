@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../css/base.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="title"><h2>远程调试</h2>
+</div>
+<div><p></p>
+</div>
+<div>1  在VS2008安装目录下拷贝一个文件夹(远程调试监视器)到远程端(存放路径随意)
+</div>
+<div>  一般路径为C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\Remote Debugger下的x86文件夹
+</div>
+<div><p></p>
+</div>
+<div>2 设置远程端（就是客户电脑）的网络访问模式
+</div>
+<div>xp：控制面板->管理工具->本地安全策略->本地策略->安全选项->(右侧)网络访问 
+</div>
+<div>将"本地帐户的共享和安全模式" 改为：经典－本地用户以自己的身份验证。
+</div>
+<div>win7: 运行->secpol.msc->本地策略->安全选项->(右侧)网络访问
+</div>
+<div>将"本地帐户的共享和安全模式" 改为：经典-对本地用户进行身份验证，不改变其来者身份
+</div>
+<div><p></p>
+</div>
+<div>3 在远程端（客户机）启动(win7下以管理员身份启动)x86文件夹中的msvsmon.exe，
+</div>
+<div>并设置工具->选项中的身份验证模式为无身份验证
+</div>
+<div><p></p>
+</div>
+<div>4 将VS2008本地工程附加到远程进程中
+</div>
+<div>调试->附加到进程
+</div>
+<div>传输：选远程
+</div>
+<div>限定符：输入远程端的IP地址
+</div>
+<div>刷新一下就出现了远程端的进程列表
+</div>
+</body>
+</html>
